@@ -19,7 +19,7 @@ export const categories: Category[] = [
   { id: 'work', name: '노동요', icon: '⚒️' },
   { id: 'jazz', name: '재즈', icon: '🎷' },
   { id: 'asmr', name: 'ASMR', icon: '🎧' },
-  { id: 'anime', name: '애니', icon: '🎌' },
+  { id: 'anime', name: '애니', icon: '📚' },
   { id: 'pop', name: '팝송', icon: '🎤' },
   { id: 'kpop', name: '가요', icon: '🇰🇷' },
 ]
