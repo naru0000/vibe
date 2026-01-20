@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Galmuri11';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/Galmuri11-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Galmuri11', 'Tahoma', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Windows XP 스타일 슬라이더 - 개선된 버전 */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  height: 20px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: linear-gradient(to bottom, #555 0%, #888 50%, #555 100%);
+  height: 6px;
+  border-radius: 3px;
+  border: 1px solid #333;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(to bottom, #8f8 0%, #0a0 50%, #080 100%);
+  border-radius: 50%;
+  border: 2px solid #060;
+  margin-top: -6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: linear-gradient(to bottom, #afa 0%, #0c0 50%, #0a0 100%);
+}
+
+/* Firefox 지원 */
+input[type="range"]::-moz-range-track {
+  background: linear-gradient(to bottom, #555 0%, #888 50%, #555 100%);
+  height: 6px;
+  border-radius: 3px;
+  border: 1px solid #333;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(to bottom, #8f8 0%, #0a0 50%, #080 100%);
+  border-radius: 50%;
+  border: 2px solid #060;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+input[type="range"]::-moz-range-thumb:hover {
+  background: linear-gradient(to bottom, #afa 0%, #0c0 50%, #0a0 100%);
+}
