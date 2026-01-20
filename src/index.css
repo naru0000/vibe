@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Galmuri11';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/Galmuri11-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-display: swap;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +9,7 @@
 }
 
 body {
-  font-family: 'Galmuri11', 'Tahoma', sans-serif;
+  font-family: 'Tahoma', 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

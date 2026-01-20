@@ -20,7 +20,7 @@ export default {
         'wmp-green': '#00FF00',
       },
       fontFamily: {
-        'galmuri': ['Galmuri11', 'Tahoma', 'sans-serif'],
+        'tahoma': ['Tahoma', 'Segoe UI', 'sans-serif'],
       },
     },
   },
