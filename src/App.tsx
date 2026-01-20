@@ -8,13 +8,10 @@ function App() {
 
   return (
     <div
-      className="app-background min-h-screen bg-black flex items-center justify-center md:p-4 relative"
+      className="app-background min-h-screen flex items-center justify-center md:p-4"
       style={{ '--xp-wallpaper': `url(${xpWallpaper})` } as React.CSSProperties}
     >
-      {/* 플레이어 */}
-      <div className="relative z-10">
-        {showCategorySelect ? <CategorySelect /> : <Player />}
-      </div>
+      {showCategorySelect ? <CategorySelect /> : <Player />}
     </div>
   )
 }

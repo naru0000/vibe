@@ -4,7 +4,7 @@ export function CategorySelect() {
   const selectCategory = usePlayerStore((state) => state.selectCategory)
 
   return (
-    <div className="w-full h-screen md:h-[90vh] md:max-h-[800px] md:max-w-md mx-auto flex flex-col md:rounded-lg overflow-hidden">
+    <div className="w-full h-screen md:h-[80vh] md:max-h-[700px] md:max-w-xl mx-auto flex flex-col md:rounded-lg overflow-hidden shadow-2xl">
       {/* 타이틀바 */}
       <div className="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-600 px-2 py-1 flex items-center justify-between md:rounded-t-lg flex-shrink-0">
         <div className="flex items-center gap-2">

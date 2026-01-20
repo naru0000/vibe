@@ -75,10 +75,6 @@ input[type="range"]::-moz-range-thumb:hover {
 }
 
 /* 배경 이미지 - 태블릿/PC에서만 표시 */
-.app-background {
-  background-color: #000;
-}
-
 @media (min-width: 768px) {
   .app-background {
     background-image: var(--xp-wallpaper);

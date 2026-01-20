@@ -34,7 +34,7 @@ export function Player() {
   }, [])
 
   return (
-    <div className="w-full h-screen md:h-[90vh] md:max-h-[800px] md:max-w-md mx-auto shadow-2xl flex flex-col md:rounded-lg overflow-hidden">
+    <div className="w-full h-screen md:h-[80vh] md:max-h-[700px] md:max-w-xl mx-auto shadow-2xl flex flex-col md:rounded-lg overflow-hidden">
       {/* 타이틀바 */}
       <TitleBar />
 
