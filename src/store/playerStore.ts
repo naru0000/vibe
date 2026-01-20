@@ -33,7 +33,7 @@ export const categoryPlaylists: Record<CategoryType, Track[]> = {
   ],
   jazz: [
     { id: 'jazz1', title: 'Jazz Relaxing Music', artist: 'Jazz Cafe', url: 'https://www.youtube.com/watch?v=Dx5qFachd3A' },
-    { id: 'jazz2', title: 'Smooth Jazz', artist: 'Dr. SaxLove', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
+    { id: 'jazz2', title: 'Smooth Jazz', artist: 'Dr. SaxLove', url: 'https://www.youtube.com/watch?v=neV3EPgvZ3g' },
     { id: 'jazz3', title: 'Jazz Piano', artist: 'Cafe Music BGM', url: 'https://www.youtube.com/watch?v=fEvM-OUbaKs' },
   ],
   asmr: [
@@ -42,12 +42,12 @@ export const categoryPlaylists: Record<CategoryType, Track[]> = {
     { id: 'asmr3', title: 'Ocean Waves', artist: 'Nature Sounds', url: 'https://www.youtube.com/watch?v=WHPEKLQID4U' },
   ],
   anime: [
-    { id: 'anime1', title: 'Anime OST Mix', artist: 'Various', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
+    { id: 'anime1', title: 'Anime OST Mix', artist: 'Various', url: 'https://www.youtube.com/watch?v=FMgwnExqWo4' },
     { id: 'anime2', title: 'Studio Ghibli Music', artist: 'Joe Hisaishi', url: 'https://www.youtube.com/watch?v=aBkEj7KL8sI' },
     { id: 'anime3', title: 'Anime Piano Collection', artist: 'Animenz', url: 'https://www.youtube.com/watch?v=sEQf5lcnj_o' },
   ],
   pop: [
-    { id: 'pop1', title: 'Top Hits 2024', artist: 'Various', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
+    { id: 'pop1', title: 'Top Hits 2024', artist: 'Various', url: 'https://www.youtube.com/watch?v=CevxZvSJLk8' },
     { id: 'pop2', title: 'Pop Music Mix', artist: 'Various', url: 'https://www.youtube.com/watch?v=kJQP7kiw5Fk' },
     { id: 'pop3', title: 'Best Pop Songs', artist: 'Various', url: 'https://www.youtube.com/watch?v=RgKAFK5djSk' },
   ],
